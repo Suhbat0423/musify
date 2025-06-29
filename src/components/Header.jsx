@@ -33,13 +33,13 @@ const Header = () => {
         {/* Auth Buttons */}
         <div className="flex items-center gap-4 ml-4">
           <a
-            href="#"
+            href="login"
             className="hover:text-white bg-transparent border border-[#EE10B0] px-4 py-2 rounded-sm transition w-[220px] text-center "
           >
             Login
           </a>
           <a
-            href="#"
+            href="register"
             className="hover:text-white bg-[#EE10B0] px-4 py-2 rounded-sm transition w-[220px] text-center"
           >
             Sign up

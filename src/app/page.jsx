@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Sidebar from "@/components/Sidebar";
+import Songs from "@/components/Songs";
 
 export default function Home() {
   return (
@@ -22,7 +23,7 @@ export default function Home() {
               On our website, you can access an amazing collection of popular
               and new songs. Stream your favorite tracks in high quality and
               enjoy without interruptions. Whatever your taste in music, we have
-              it all for you!
+              it all for you!z
             </p>
             <div className="mt-[7%] flex justify-between mx-4">
               <button className="w-2/5 h-14 rounded-md font-bold bg-[#EE10B0]">
@@ -34,6 +35,8 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <Songs Title="Weekly Top Songs" />
+        <Songs Title="New Release Songs" />
       </div>
     </div>
   );
