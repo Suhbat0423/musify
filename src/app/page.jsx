@@ -1,3 +1,4 @@
+import Charts from "@/components/Charts";
 import Header from "@/components/Header";
 import Sidebar from "@/components/Sidebar";
 import Songs from "@/components/Songs";
@@ -6,7 +7,7 @@ export default function Home() {
   return (
     <div className="flex">
       <Sidebar />
-      <div className="my-12 ml-9 mr-16 w-full h-[200vh]">
+      <div className="my-12 ml-9 mr-16 w-full h-[400vh]">
         <div
           className="relative w-full h-[90vh] rounded-xl bg-cover bg-center bg-no-repeat p"
           style={{
@@ -37,6 +38,7 @@ export default function Home() {
         </div>
         <Songs Title="Weekly Top Songs" />
         <Songs Title="New Release Songs" />
+        <Charts Title="trending songs" />
       </div>
     </div>
   );
